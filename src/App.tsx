@@ -15,7 +15,7 @@ import { useState, ReactNode } from "react";
 type Route = "home" | ["module", string];
 
 const App = () => {
-    const [page, setPage] = useState<Route>(["module", "Further Java"]);
+    const [page, setPage] = useState<Route>("home");
 
     const [attemptWindowContent, setAttemptWindowContent] = useState<
         QuestionAttempt | "new" | undefined
