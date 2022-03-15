@@ -1,0 +1,56 @@
+@import "../../theme.scss";
+
+.module {
+    .header {
+        display: flex;
+        justify-content: center;
+        .back-btn {
+            position: absolute;
+            left: 10px;
+            height: 2em;
+            width: 2em;
+            font-size: 0.7em;
+            border: none;
+            background-color: $bgColor2;
+            color: $primaryColor;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .icon {
+                margin: auto;
+            }
+        }
+    }
+    .graph-card {
+        .graph {
+            height: 35vh;
+        }
+    }
+
+    .no-attempts-outer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .no-attempts-container {
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .no-attempts {
+                width: max(100px, 60%);
+                margin: auto;
+                text-align: center;
+                color: gray;
+                .title {
+                    font-size: 1.6em;
+                }
+            }
+        }
+    }
+
+    .unattempted-btn .btn {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}

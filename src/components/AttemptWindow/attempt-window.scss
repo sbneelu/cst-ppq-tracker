@@ -1,0 +1,46 @@
+@import "../../theme.scss";
+
+.attempt-window {
+    .errors {
+        color: red;
+        font-size: 0.8em;
+    }
+
+    .input-section {
+        margin-bottom: 12px;
+    }
+
+    small {
+        display: block;
+        font-size: 0.8em;
+        margin-top: 2px;
+        color: gray;
+    }
+
+    .buttons {
+        .left-buttons {
+            float: left;
+            margin-bottom: 10px;
+        }
+        .right-buttons {
+            float: right;
+            margin-bottom: 10px;
+            .cancel-btn {
+                border: none;
+                background: none;
+                color: $primaryColor;
+                margin-right: 6px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .submit-btn {
+                background-color: $primaryColor;
+                color: white;
+                border-width: 0;
+                border-radius: 6px;
+                padding: 8px 12px 8px 12px;
+            }
+        }
+    }
+}
