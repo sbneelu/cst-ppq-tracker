@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cst-ppq-tracker/static/css/main.cf0a2cb6.css",
+    "main.js": "/cst-ppq-tracker/static/js/main.3e5e25bb.js",
+    "static/js/377.9c3bebd7.chunk.js": "/cst-ppq-tracker/static/js/377.9c3bebd7.chunk.js",
+    "service-worker.js": "/cst-ppq-tracker/service-worker.js",
+    "index.html": "/cst-ppq-tracker/index.html",
+    "main.cf0a2cb6.css.map": "/cst-ppq-tracker/static/css/main.cf0a2cb6.css.map",
+    "main.3e5e25bb.js.map": "/cst-ppq-tracker/static/js/main.3e5e25bb.js.map",
+    "377.9c3bebd7.chunk.js.map": "/cst-ppq-tracker/static/js/377.9c3bebd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf0a2cb6.css",
+    "static/js/main.3e5e25bb.js"
+  ]
+}
